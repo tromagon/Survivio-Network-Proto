@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "outDir": "../../dist/",
+    "rootDirs": [
+      "./",
+      "../"
+    ],
+    "paths": {
+      "shared/*": ["../shared/*"]
+    },
+    "lib": ["es6", "dom"],
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "typeRoots": [
+      "/node_modules/@types"
+   ]
+  },
+  "files": [
+    "./global.d.ts",
+    "./index.ts"
+  ]
+}

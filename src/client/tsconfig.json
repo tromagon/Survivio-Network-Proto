@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "sourceMap": true,
+      "module": "commonjs",
+      "importHelpers": true,
+      "outDir": "../../dist/client",
+      "lib": ["es6", "dom"],
+      "moduleResolution": "node",
+      "types": ["node"]
+    },
+    "files": [
+      "./global.d.ts",
+      "./index.ts"
+    ]
+  }
